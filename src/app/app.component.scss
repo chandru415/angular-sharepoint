@@ -1,0 +1,48 @@
+.file-drag-wrapper {
+  input[type="file"] {
+    display: none;
+  }
+
+  .drop-zone {
+    height: 150px;
+    display: table;
+    width: 100%;
+    background-color: #eee;
+    border: dotted 1px #aaa;
+  }
+
+  .text-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .text-center {
+    text-align: center !important;
+  }
+
+  .mb-2 {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .p-1 {
+    padding: 0.25rem !important;
+  }
+
+  .text-muted {
+    color: #6c757d !important;
+  }
+
+  .alert {
+    position: relative;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #0000;
+    border-radius: 0.25rem;
+  }
+
+  .alert-danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+  }
+}
